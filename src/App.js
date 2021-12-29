@@ -24,7 +24,7 @@ function App() {
 
 	return (
 		<main className='main center'>
-			<div className='card'>
+			<div className='mainCard'>
 				<FirstCard onActive={activeHandler} OnQR={activeQRHandler} />
 				<SecondCard className={active} onOff={offHandler} />
 				<ThirdCard className={activeQR} onOff={offHandler} />

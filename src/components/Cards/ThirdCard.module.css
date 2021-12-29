@@ -6,6 +6,7 @@
 	height: 100%;
 	padding: 0 0 40px;
 	transition: all 0.4s;
+	border-radius: 25px;
 }
 
 .card-third img {
