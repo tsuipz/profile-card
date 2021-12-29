@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+
+import FirstCard from './components/Cards/FirstCard';
+import SecondCard from './components/Cards/SecondCard';
+import ThirdCard from './components/Cards/ThirdCard';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [active, setActive] = useState('off');
+	const [activeQR, setActiveQR] = useState('off');
+
+	const activeHandler = () => {
+		setActive('active');
+	};
+
+	const activeQRHandler = () => {
+		setActiveQR('active');
+	};
+
+	const offHandler = () => {
+		setActive('off');
+		setActiveQR('off');
+	};
+
+	return (
+		<main className='main center'>
+			<div className='card'>
+				<FirstCard onActive={activeHandler} OnQR={activeQRHandler} />
+				<SecondCard className={active} onOff={offHandler} />
+				<ThirdCard className={activeQR} onOff={offHandler} />
+			</div>
+		</main>
+	);
 }
 
 export default App;

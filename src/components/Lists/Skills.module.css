@@ -1,0 +1,18 @@
+.skills {
+	margin-bottom: 20px;
+}
+
+.skills div {
+	display: inline-block;
+	color: #fffef4;
+	border: 1px solid #fffef4;
+	padding: 5px 10px;
+	font-size: 0.9rem;
+	margin: 4px 8px 4px 0;
+	transition: all 0.4s;
+}
+
+.skills div:hover {
+	color: #ffc107;
+	border: 1px solid #ffc107;
+}

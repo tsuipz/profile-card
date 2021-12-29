@@ -1,0 +1,27 @@
+.card {
+	flex-direction: column;
+	color: #fffef4;
+	position: absolute;
+	background-color: #365168;
+	width: 100%;
+	height: 100%;
+}
+
+.card img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+}
+
+.full-name {
+	margin: 20px 0 10px;
+	font-size: 2rem;
+}
+
+.job {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.arrow {
+	transform: rotate(45deg);
+}
