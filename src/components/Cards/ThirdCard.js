@@ -1,5 +1,5 @@
 import classes from './ThirdCard.module.css';
-import qr from '../../qr-code.png';
+import qr from '../../assets/qr-code.png';
 
 const ThirdCard = (props) => {
 	let classLists = `${classes['card-third']} center  ${props.className}`;

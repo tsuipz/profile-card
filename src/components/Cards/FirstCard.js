@@ -1,6 +1,6 @@
 import Button from '../UI/Button';
 import classes from './FirstCard.module.css';
-import profile from '../../profile.jpg';
+import profile from '../../assets/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fas, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 

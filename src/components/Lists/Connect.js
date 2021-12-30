@@ -1,4 +1,4 @@
-import React from 'react';
+import { Fragment } from 'react';
 
 import classes from './Connect.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,7 +13,7 @@ import {
 
 const Connect = () => {
 	return (
-		<React.Fragment>
+		<Fragment>
 			<p>Connect</p>
 			<section className={classes.icons}>
 				<a href='https://github.com/tsuipz' target='_blank' rel='noopener noreferrer'>
@@ -36,7 +36,7 @@ const Connect = () => {
 					<FontAwesomeIcon icon={(fas, faEnvelope)} className={classes.icon} />
 				</a>
 			</section>
-		</React.Fragment>
+		</Fragment>
 	);
 };
 
