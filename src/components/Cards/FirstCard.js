@@ -1,8 +1,7 @@
 import Button from '../UI/Button';
+import ArrowRight from '../UI/ArrowRight';
 import classes from './FirstCard.module.css';
 import profile from '../../assets/profile.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fas, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const FirstCard = (props) => {
 	return (
@@ -12,7 +11,7 @@ const FirstCard = (props) => {
 				<h1 className={classes['full-name']}>Patrick Tsui</h1>
 				<p className={classes.job}>Software Engineer</p>
 				<Button onClick={props.onActive}>
-					<FontAwesomeIcon icon={(fas, faArrowRight)} className={classes.arrow} />
+					<ArrowRight />
 				</Button>
 			</article>
 		</section>

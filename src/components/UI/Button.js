@@ -2,7 +2,7 @@ import classes from './Button.module.css';
 
 const Button = (props) => {
 	return (
-		<div className={`${classes.button} center`} onClick={props.onClick}>
+		<div className={`${classes.button} center ${props.className}`} onClick={props.onClick}>
 			{props.children}
 		</div>
 	);
