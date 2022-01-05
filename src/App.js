@@ -9,6 +9,7 @@ function App() {
 	const [active, setActive] = useState('off');
 	const [activeQR, setActiveQR] = useState('off');
 
+	// Controls which cards shows
 	const activeHandler = () => {
 		setActive('active');
 	};
