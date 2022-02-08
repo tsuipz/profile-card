@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 import classes from './Skills.module.css';
 
 const Skills = () => {
-	const arrSkills = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'React', 'Go', 'Java'];
+	const arrSkills = ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'jQuery', 'Go', 'Java'];
 
 	return (
 		<Fragment>
