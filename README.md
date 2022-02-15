@@ -1,17 +1,16 @@
 # Profile Card
 
-## About
-
 Here is Patrick Tsui's Profile Card. A paperless way of sharing social media and contact information.
 
-- Card contains
-  - Name
-  - Job Title
-  - Skills
-  - Social Media Sites
-  - QR Code
+## Features
 
-## How to run locally
+- Name
+- Job Title
+- Skills
+- Social Media Sites
+- QR Code
+
+## Run Locally
 
 1. Clone and fork this repo
 2. Run `npm install` to load dependencies
@@ -21,3 +20,8 @@ Here is Patrick Tsui's Profile Card. A paperless way of sharing social media and
 ## Technologies
 
 - React
+
+## Roadmap
+
+- Additional browser support
+- Add more integrations
